@@ -7,3 +7,6 @@ En este proyecto se usa dos contenedores:
 Con un archivo docker-compose que construye los contenedores y los interconecta, haciendo que el servidor Proxy pueda funcionar solo si el servidor Django esta activo
 => Si el proyecto necesita de mas dependencias para Django solo sera necesario especificar cuales son las que necesitamos en el requirements.txt
 => Si necesitamos la integración de otros contenedores como Bases de Datos, será necesario especificarlo en el docker composer a través de una imagen de Docker para cada tipo de requerimiento.  
+
+Ejecución de los contenedores:
+  En el proyecto => docker-composer up --build
